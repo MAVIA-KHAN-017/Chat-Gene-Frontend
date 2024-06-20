@@ -28,10 +28,10 @@ function Home() {
                     <img
                       className="header-logo-image"
                       src={
-                        process.env.PUBLIC_URL + "/dist/images/chatge-logo.png"
+                        process.env.PUBLIC_URL + "/dist/images/logo1.png"
                       }
                       alt="Logo"
-                      width="200px"
+                      width="100px"
                     />
                   </Link>
                 </h1>

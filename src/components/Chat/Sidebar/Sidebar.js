@@ -57,19 +57,7 @@ const Sidebar = ({ toggle, toggleHandle, faqsHandle,promptList, chatType, setDis
           }} className={disabledFAQ ? "non-clickable-paragraph" : ""} > Plot a bar graph of the distribution of branch ratings in the dataset?</p>
         <p onClick={(e)=> {
           if(!disabledFAQ){ faqsHandle(e)}
-          }} className={disabledFAQ ? "non-clickable-paragraph" : ""} > provide me table of the average score for all these LSM,CC,CA,BFA,ATM,VOC,SR,AOP,CB,CRT,PMS,O-EF,VMS performance metric across all branches?</p>
-        <p onClick={(e)=> {
-          if(!disabledFAQ){ faqsHandle(e)}
-          }} className={disabledFAQ ? "non-clickable-paragraph" : ""} > Which branch has the highest total points MTD and which one has the lowest?</p>
-        <p onClick={(e)=> {
-          if(!disabledFAQ){ faqsHandle(e)}
-          }} className={disabledFAQ ? "non-clickable-paragraph" : ""} > How many branches have valid complaints and behavior complaints?</p>
-        <p onClick={(e)=> {
-          if(!disabledFAQ){ faqsHandle(e)}
           }} className={disabledFAQ ? "non-clickable-paragraph" : ""} > Provide me the table of the distribution of ratings among different clusters?</p>
-        <p onClick={(e)=> {
-          if(!disabledFAQ){ faqsHandle(e)}
-          }} className={disabledFAQ ? "non-clickable-paragraph" : ""} > How do branches compare to the overall average or benchmarks in terms of KPI points and other metrics?</p>
         <p onClick={(e)=> {
           if(!disabledFAQ){ faqsHandle(e)}
           }} className={disabledFAQ ? "non-clickable-paragraph" : ""} > Provide me with a table where I can find the "Hall of Shame" Ratings ascending order in result wise?</p>
