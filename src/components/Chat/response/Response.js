@@ -76,6 +76,11 @@ function Response({ loading, responseResult }) {
                   {responseResult?.text}
                 </p>
               )}
+                {/* {(responseResult?.hasOwnProperty('text') && responseResult['text'] !== "None") && ( */}
+                  <p>
+                    {typeof(responseResult) !== 'object' && responseResult}
+                  </p>
+                {/* )} */}
             </div>
           </>
         )
